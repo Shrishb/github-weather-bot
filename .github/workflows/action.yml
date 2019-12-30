@@ -3,7 +3,7 @@ name: 'Actions Weather Bot Test'
 on:
   push:
   schedule:
-    - cron: '0 8 * * *'
+    - cron: '0 8 * * * Australia/Melbourne'
 
 jobs:
   bot:
